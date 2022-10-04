@@ -1,14 +1,26 @@
 {
-  "name": "gym_club",
+  "name": "fitclub",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
+    "@emailjs/browser": "^3.7.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "emailjs": "^4.0.0",
+    "emailjs-com": "^3.2.0",
+    "framer-motion": "^6.5.1",
+    "jsx-dom": "^8.0.3",
+    "jsx-runtime": "^1.2.0",
+    "number-counter": "^1.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-jsx": "^1.0.0",
+    "react-onclickoutside": "^6.12.2",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +46,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react-html-props": "^1.0.33"
   }
 }

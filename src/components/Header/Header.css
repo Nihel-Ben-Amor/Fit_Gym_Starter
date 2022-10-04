@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 10rem;
+    height: 3rem;
+}
+.List{
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    color: white;  
+}
+.List>li:hover{
+   
+    cursor: pointer;
+    color: var(--orange);
+}
